@@ -1,9 +1,10 @@
 import { Routes } from '@angular/router';
+import { DashboardComponent } from './features/dashboard/dashboard/dashboard.component';
 
 export const routes: Routes = [
-    // {
-    //     path: '',
-    //     component: //todo,
-    //     pathMatch: 'full',
-    //   }
+    {
+        path: '',
+        component: DashboardComponent,
+        pathMatch: 'full',
+      }
 ];
